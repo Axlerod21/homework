@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type = "text/css" rel = "stylesheet" href="stuff.css" nonce="">
+</head>
+<body>
+    <div id = "screen">
+        <div id = "top">
+            <br>
+            <a class = "link" target = "_blank" blabla = "link1">FaceBook</a>
+            <a class = "link" target = "_blank" blabla = "link2">Google</a>
+            <a class = "link" target = "_blank" blabla = "link3">Amazon</a>
+            <div id = "searchBar">
+                <div id = "icon"></div>
+                <div>
+                    <input type="text" id ="search" class="inputstyle" placeholder = "Search">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id = "body">
+            <div id = "left"></div>
+            <div id = "center">
+                <div id = "bar">
+                    
+                </div>
+                <div class = "circles">
+                    <div class = "circle"></div>
+                    <br>
+                    Hello
+                </div>
+                <div class = "circles">
+                    <div class = "circle"></div>
+                    <br>
+                    Hello
+                </div>
+                <div class = "circles">
+                    <div class = "circle"></div>
+                    <br>
+                    Hello
+                </div>
+                <div class = "circles">
+                    <div class = "circle"></div>
+                    <br>
+                    Hello
+                </div>
+                <div id = "box">
+                    <p>stuff stuff<br>stuff stuff<br>stuff stuff</p>
+                    <p>stuff stuff<br>stuff stuff<br>stuff stuff</p>
+                    <p>stuff stuff<br>stuff stuff<br>stuff stuff</p>
+                    <p>stuff stuff<br>stuff stuff<br>stuff stuff</p>
+                    <br>
+                    <p>stuff stuff<br>stuff stuff<br>stuff stuff</p>
+                    <p>stuff stuff<br>stuff stuff<br>stuff stuff</p>
+                    <p>stuff stuff<br>stuff stuff<br>stuff stuff</p>
+                    <p>stuff stuff<br>stuff stuff<br>stuff stuff</p>
+                </div> 
+            </div>
+            <div id = "right">
+                
+            </div>
+    </div>
+
+    <script src="stuff.js"></script>
+</body>
+</html>
