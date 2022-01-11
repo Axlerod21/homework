@@ -23,20 +23,6 @@ links = document.querySelectorAll(".pageHeaderMenuLink > a");
             
 setInterval(()=>shuffle(links, urls), 5000);
 
-var flag = 0;
-const changeHide = (elem) => {
-    if(flag = 0) {
-        removeHide(elem);
-        flag = 1;
-    }
-    else {
-        addHide(elem);
-        flag = 0;
-    }
-}
-const removeHide = (elem) => {
-    elem.classList.remove("hide");
-}
-const addHide = (elem) => {
-    elem.classList.add("hide");
+const removeOrAddHide = (elem) => {
+    elem.classList.toggle("hide");
 }
